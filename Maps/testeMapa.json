@@ -1,0 +1,169 @@
+{ "compressionlevel":-1,
+ "height":16,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[1, 2, 33, 97, 82, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            17, 33, 97, 97, 82, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            33, 97, 97, 97, 82, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            97, 97, 97, 97, 82, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            97, 97, 97, 97, 82, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131,
+            161, 161, 161, 161, 210, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131, 131],
+         "height":16,
+         "id":1,
+         "name":"Camada de Blocos 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":16,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":2,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.10.2",
+ "tileheight":31,
+ "tilesets":[
+        {
+         "columns":16,
+         "firstgid":1,
+         "image":"C:\/Users\/yuri_\/Downloads\/overworld3.png",
+         "imageheight":496,
+         "imagewidth":496,
+         "margin":0,
+         "name":"overworld3",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":31,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"arvore"
+                        }]
+                }, 
+                {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"arvore"
+                        }]
+                }, 
+                {
+                 "id":16,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"arvore"
+                        }]
+                }, 
+                {
+                 "id":32,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"arvore"
+                        }]
+                }, 
+                {
+                 "id":34,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"agua"
+                        }]
+                }, 
+                {
+                 "id":81,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"chao"
+                        }]
+                }, 
+                {
+                 "id":96,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"chao"
+                        }]
+                }, 
+                {
+                 "id":130,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"agua"
+                        }]
+                }, 
+                {
+                 "id":160,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"grama"
+                        }]
+                }, 
+                {
+                 "id":161,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"grama"
+                        }]
+                }, 
+                {
+                 "id":209,
+                 "properties":[
+                        {
+                         "name":"tipo",
+                         "type":"string",
+                         "value":"grama"
+                        }]
+                }],
+         "tilewidth":31
+        }, 
+        {
+         "columns":16,
+         "firstgid":257,
+         "image":"C:\/Users\/yuri_\/Downloads\/overworld11.png",
+         "imageheight":496,
+         "imagewidth":496,
+         "margin":0,
+         "name":"overworld11",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":31,
+         "tilewidth":31
+        }],
+ "tilewidth":31,
+ "type":"map",
+ "version":"1.10",
+ "width":16
+}

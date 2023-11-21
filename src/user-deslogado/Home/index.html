@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Jogo Pokémon</title>
+    <!-- Inclua os links para os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/src/css/custom.css">
+    <link rel="icon" href="/src/icone/icone.webp" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/src/user-deslogado/Home/home.js"></script>
+
+</head>
+
+<body id="body">
+    <div id="menu">
+        <div id="menuPrinc">
+            <div id="logo">
+                <a href="/">
+                    <img src="/src/user-deslogado/Home/logo/main.png" alt="logoPKM">
+                </a>
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li class="menuHome"><a href="/" title="Home"><i class="fas fa-home"></i> DelugeRPG</a></li>
+                    <li><a href="/login" title="Login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                    <li><a href="/register" title="Sign Up"><i class="fas fa-user-plus"></i> Registre-se</a></li>
+                    <li><a href="/faq" title="F.A.Q"><i class="fas fa-question-square"></i> F.A.Q</a></li>
+                    <li><a href="/sobre" rel="author" title="About"><i class="fas fa-gamepad"></i> Sobre</a></li>
+                    <li><a href="/ajuda" title="Help"><i class="fas fa-life-ring"></i> Ajuda</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="menuBody">
+        <div id="banner">
+            <picture class="pkmnimg fleft" alt="Free Pokemon Game">
+                <source srcset="https://i.dstatic.com/images/svg/782.webp" type="image/webp">
+                <source srcset="https://i.dstatic.com/images/svg/782.png" type="image/png">
+                <img src="https://i.dstatic.com/images/svg/782.png">
+            </picture>
+            <div id="iehead">
+                <picture alt="DelugeRPG" style="width:400px;">
+                    <source srcset="https://i.dstatic.com/images/logos/main_xl.webp" type="image/webp">
+                    <source srcset="https://i.dstatic.com/images/logos/main_xl.png" type="image/png">
+                    <img src="https://i.dstatic.com/images/logos/main_xl.png" style="width:400px;">
+                </picture>
+                <h1>Pokemon-based Browser <abbr title="Role Playing Game">RPG</abbr></h1>
+                <div id="signlog">
+                    <a href="/register">Registrar</a>
+                    <a href="/login">Logar</a>
+                </div>
+            </div>
+        </div>
+        <div id="slide" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#slide" data-slide-to="0" class="active"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+                <li data-target="#slide" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w100" src="/src/user-deslogado/Home/slide/01.webp" alt="First Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w100" src="/src/user-deslogado/Home/slide/02.webp" alt="Second Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w100" src="/src/user-deslogado/Home/slide/03.webp" alt="Second Slide">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <link rel="stylesheet preload" href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu">
+        <link rel="stylesheet preload" href="https://assets.delugerpg.com/font-awesome/v510/css/all.min.css">
+    </div>
+    <div id="menuFooter">
+        <div id="footpar">
+            <ul id="footleft">
+                <li><a href="/">Início</a></li>
+                <li><a href="/login">Logar</a> / <a href="/register">Registrar</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <!--<li><a href="/updates">Update Log</a></li>
+                <li><a href="/privacy">Privacy</a></li>
+                <li><a href="https://www.delugerpg.net/">Forum</a></li>
+                <li><a href="https://m.delugerpg.com/"><i class="fad fa-mobile"></i> Mobile Version</a></li>-->
+            </ul>
+            <div id="footright">
+                <a href="https://www.delugerpg.com/" class="scaps">DelugeRPG.com</a>
+                <br>Pokémon and respective character names/images are <a href="/terms#legal">trademarks and
+                    copyrights</a> of their respective owners.
+                <br>We are not affiliated with <a href="https://www.nintendo.com/" title="Nintendo">Nintendo</a>, <a
+                    href="https://www.pokemon.com/" title="Pokemon">The Pokémon Company</a> <a
+                    href="https://www.creatures.co.jp/" title="Creatures Inc.">Creatures Inc.</a> or <a
+                    href="https://www.gamefreak.co.jp/" title="Game Freak">Game Freak</a>.<br><br>No copyright or
+                trademark infringement is intended. | <a href="/terms">Privacy Policy / Terms of Service</a> | <a
+                    href="/contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inclua os scripts do Bootstrap e jQuery no final do corpo -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

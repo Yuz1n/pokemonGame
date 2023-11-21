@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Jogo Pokémon</title>
+    <!-- Inclua os links para os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/src/css/custom.css">
+    <link rel="icon" href="/src/icone/icone.webp" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="body">
+    <header>
+        <div id="menu">
+            <div id="menuPrinc">
+                <div id="logo">
+                    <a href="/maps">
+                        <img src="/src/user-deslogado/Home/logo/main.png" alt="logoPKM">
+                    </a>
+                </div>
+                <div id="navprofile" class="in aevent">
+                    <span id="user"><i class="fas fa-caret-down"></i><img
+                            src="https://secure.gravatar.com/avatar/239493172d6bed26bf1bef481fed7fd0?s=25&amp;r=g&amp;d=https%3A%2F%2Fi.dstatic.com%2Fimages%2Favatars%2F25%2F21.png"
+                            id="imgProfile"><a id="userNameLink"></a>
+                    </span>
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li class="menuHome"><a href="/maps" title="Mapas"><i class="fas fa-map-marked-alt"></i>
+                                Mapas</a></li>
+                        <li><a href="/menu/profile" title="Profile"><i class="fas fa-id-badge"></i> Profile <i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="/profile" title="profile">Conta</a>
+                                </li>
+                                <li>
+                                    <a href="/pokemart" title="Change or rearrange your team">PokeMart</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/pokemon" title="Pokemon"><i class="fas fa-dragon"></i> Pokemon <i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="/pokemon" title="All your pokemon will be listed here, except the ones you've put up for trade or offered on others pokemon">Seus Pokemons</a>
+                                </li>
+                                <li>
+                                    <a href="/team" title="Change or rearrange your team">Seu Time</a>
+                                </li>
+                                <li>
+                                    <a href="/team/edit" title="Change the members of your team">Mudar Time</a>
+                                </li>
+                                <li>
+                                    <a href="/pokedex" title="The PokeDex, contains a lot of information you may need as a pokemon collector">PokeDex</a>
+                                </li>
+                                <li>
+                                    <a href="/attackdex" title="A list of all the attacks available on DelugeRPG">AttackDex</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/menu/faq" title="Batalha"><i class="fas fa-swords"></i> Batalha<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="/GymBattle" title="GYM BATTLE">Batalha de Ginásio</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/menu/help" title="Ajuda"><i class="fas fa-life-ring"></i> Ajuda</a></li>
+                    </ul>
+                </nav>
+                <div id="navprofile-dropdown-wrapper">
+                    <div id="navprofile-dropdown">
+                        <div id="profileLeft">
+                            <img id="imgProfileDrop"
+                                src="https://secure.gravatar.com/avatar/239493172d6bed26bf1bef481fed7fd0?s=80&amp;r=g&amp;d=https%3A%2F%2Fi.dstatic.com%2Fimages%2Favatars%2F80%2F21.png"
+                                style="width:80px;height:80px;">
+                            <br>
+                            <b>DelugeRPG Time</b>
+                            <br>
+                            "Thu 07:18 PM"
+                            <a href="/login" title="logout" id="lnlogout" class="btn btn-danger" onclick="logout()"><i
+                                    class="fas fa-power-off"></i> Deslogar</a>
+                        </div>
+                        <div id="profileRight">
+                            <div id="uname"></div>
+                            <hr style="width:65px;color:#C8C8C8;">
+                            <div id="linklist">
+                                <a href="/profile">Profile</a>
+                                <a href="/intro">Help</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="menuBody">
+        <div class="title">
+            <h1><i class="fas fa-map-marked-alt"></i> Mapas</h1>
+        </div>
+        <div class="cardif" id="homemapusers">
+            There are about <b>133</b> users roaming the maps right now.
+            <br><br>Click on any map to visit it.
+        </div>
+        <div id="thumbcont">
+            <div class="maps" style="margin-left: 80px;">
+                <a href="/maps/mundo1" title="Oasis" data-original-title="Mapa1">
+                    <img alt="Oasis" src="/Maps/Oasis.png">
+                    <span class="mapnumm">3</span>
+                </a>
+                <a href="/maps/mundo2" title="" data-original-title="Mapa2">
+                    <img alt="Magma Lagoon #4" src="https://i.dstatic.com/images/maps/2016/120/volcano4.png">
+                    <span class="mapnumm">4</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <link rel="stylesheet preload" href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu">
+        <link rel="stylesheet preload" href="https://assets.delugerpg.com/font-awesome/v510/css/all.min.css">
+        <script src="/src/user-logado/Maps/maps.js"></script>
+    </div>
+    <footer>
+        <div id="menuFooter">
+            <div id="footpar">
+                <ul id="footleft">
+                    <li><a href="/">Homepage</a></li>
+                    <li><a href="/login">Login</a> / <a href="/register">Sign Up</a></li>
+                    <li><a href="/about">About</a></li>
+                    <!--<li><a href="/updates">Update Log</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
+                    <li><a href="https://www.delugerpg.net/">Forum</a></li>
+                    <li><a href="https://m.delugerpg.com/"><i class="fad fa-mobile"></i> Mobile Version</a></li>-->
+                </ul>
+                <div id="footright">
+                    <a href="https://www.delugerpg.com/" class="scaps">DelugeRPG.com</a>
+                    <br>Pokémon and respective character names/images are <a href="/terms#legal">trademarks and
+                        copyrights</a> of their respective owners.
+                    <br>We are not affiliated with <a href="https://www.nintendo.com/" title="Nintendo">Nintendo</a>, <a
+                        href="https://www.pokemon.com/" title="Pokemon">The Pokémon Company</a> <a
+                        href="https://www.creatures.co.jp/" title="Creatures Inc.">Creatures Inc.</a> or <a
+                        href="https://www.gamefreak.co.jp/" title="Game Freak">Game Freak</a>.<br><br>No copyright or
+                    trademark infringement is intended. | <a href="/terms">Privacy Policy / Terms of Service</a> | <a
+                        href="/contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

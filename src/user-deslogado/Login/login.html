@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Inclua os links para os arquivos CSS do Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/src/css/custom.css">
+    <link rel="icon" href="/src/icone/icone.webp" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/src/user-deslogado/Login/login.js"></script>
+</head>
+
+<body id="body">
+    <header>
+        <div id="menu">
+            <div id="menuPrinc">
+                <div id="logo">
+                    <a href="/">
+                        <img src="/src/user-deslogado/Home/logo/main.png" alt="logoPKM">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="/" title="Home"><i class="fas fa-home"></i> DelugeRPG</a></li>
+                        <li class="menuHome"><a href="/login" title="Login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                        <li><a href="/register" title="Sign Up"><i class="fas fa-user-plus"></i> Registrar-se</a></li>
+                        <li><a href="/faq" title="F.A.Q"><i class="fas fa-question-square"></i> F.A.Q</a></li>
+                        <li><a href="/sobre" rel="author" title="About"><i class="fas fa-gamepad"></i> Sobre</a></li>
+                        <li><a href="/ajuda" title="Help"><i class="fas fa-life-ring"></i> Ajuda</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="menuBody">
+        <div id="login">
+            <div class="title">
+                <h1><i class="fas fa-sign-in-alt"></i> Login</h1>
+            </div>
+            <div id="box" class="cardif clearfix">
+                <div id="forms">
+                    <form id="formLogin" action="/login" method="POST">
+                        <br><label for="username">Usuário</label>
+                        <input id="usernameInput" type="text" name="username" size="35" maxlength="50" value="">
+                        <!--<script>if (typeof window.location.hostname !== 'undefined' && window.location.hostname !== 'www.delugerpg.com') { window.top.location.href = 'https://www.delugerpg.com/login'; }</script>-->
+                        <br><label for="password">Senha</label>
+                        <input id="passwordInput" type="password" name="password" size="35" maxlength="128">
+                        <div id="forgot"><a href="/login/recover">Forgot Password?</a></div>
+                        <input type="hidden" name="TQ1ZjE" value="2QzNmJhYTc">
+                        <div id="nullsubmit"></div>
+                        <input id="btn-login" class="btn btn-lg scaps" type="submit" name="Login" value="Login">
+                    </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+        <link rel="stylesheet preload" href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu">
+        <link rel="stylesheet preload" href="https://assets.delugerpg.com/font-awesome/v510/css/all.min.css">
+    </div>
+    <footer>
+        <div id="menuFooter">
+            <div id="footpar">
+                <ul id="footleft">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/login">Login</a> / <a href="/register">Registrar</a></li>
+                    <li><a href="/sobre">Sobre</a></li>
+                    <!--<li><a href="/updates">Update Log</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
+                    <li><a href="https://www.delugerpg.net/">Forum</a></li>
+                    <li><a href="https://m.delugerpg.com/"><i class="fad fa-mobile"></i> Mobile Version</a></li>-->
+                </ul>
+                <div id="footright">
+                    <a href="https://www.delugerpg.com/" class="scaps">DelugeRPG.com</a>
+                    <br>Pokémon and respective character names/images are <a href="/terms#legal">trademarks and
+                        copyrights</a> of their respective owners.
+                    <br>We are not affiliated with <a href="https://www.nintendo.com/" title="Nintendo">Nintendo</a>, <a
+                        href="https://www.pokemon.com/" title="Pokemon">The Pokémon Company</a> <a
+                        href="https://www.creatures.co.jp/" title="Creatures Inc.">Creatures Inc.</a> or <a
+                        href="https://www.gamefreak.co.jp/" title="Game Freak">Game Freak</a>.<br><br>No copyright or
+                    trademark infringement is intended. | <a href="/terms">Privacy Policy / Terms of Service</a> | <a
+                        href="/contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

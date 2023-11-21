@@ -1,0 +1,18 @@
+################# RODAPÉ ##################
+- Trocar para portugues
+- Trocar os links do lado direito
+
+############################################
+
+################### CSS ####################
+- Verificar o porque que o hover não está funcionando.
+############################################
+
+################### TOKEN ##################
+- Validar o tempo de expiração do token, e fazer ele redirecionar para pagina de login.
+############################################
+
+
+################### TELA DE CAPTURA ##################
+- Colisão com árvore, e subidas.
+############################################
